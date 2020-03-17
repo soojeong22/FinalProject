@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+ /*헤더_not logout  */
+ 
+ *{
+   margin: 0;
+   padding: 0;
+   }
+   #headerwap{
+     padding:4px;
+      box-sizing:border-box;
+      font-size:25px;
+      background-color: #00bf6f;
+      height:50px;
+      width:100%;
+      color: white;
+      display: flex;
+   }
+   
+   #logo{
+      height: 40px;
+      width: 40px;
+      margin-left: 25px;
+      flex: 0.2
+   }
+   img{
+      height: 40px;
+      width: 40px;
+   }
+   
+   #menu1{
+      padding-left: 30px;
+      flex: 2.7;
+      
+   }
+   
+   #menu2{
+      
+      padding-left: 321px;
+      flex: 1.2;
+      
+   }
+   
+   span {
+   padding-left: 10px;
+   
+}
+   span >a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+   /* boby부분 */
+   
+   .side{
+      flex: 0.3;
+   
+      text-align: center;
+      background-color: #ebe6e6;
+   }
+   .center{
+      flex: 2;
+      text-align: center;
+      background-color: white;
+      height: 1250px;
+   }
+   
+   .container{
+      display: flex;
+      clear: both;
+      width: 100%;
+      height: 1000px;
+      line-height: 1000px;
+      vertical-align: middle;
+      height: auto;
+      overflow: hidden;
+   }
+   
